@@ -319,6 +319,8 @@ header {
     =================================*/
 .meals-showcase {
   list-style: none;
+  display: flex;
+  align-items: center;
   width: 100%; /* Will fill 100% of browser, not of the 1140px, no row class*/
 }
 
@@ -352,6 +354,7 @@ header {
 
 .meals {
   padding: 0;
+  background-color: #000;
 }
 
 /* How it works section
