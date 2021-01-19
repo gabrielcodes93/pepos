@@ -78,22 +78,7 @@ $(document).ready(function(){
 		}
 	});
 
-	/* gmaps.js: Google Maps plugin */
- 	var map = new GMaps({
-	  div: '.map',
-	  lat: 40.0047528,
-	  lng: -75.0,
-	  zoom: 12
-	});
 
-	map.addMarker({
-	  lat: 40.0047528,
-	  lng: -75.1180329,
-	  title: 'Philadelphia',
-	  infoWindow: {
-		content: '<p>Our Philadelphia HQ</p>'
-	  }
-	});
 });
 
 	
